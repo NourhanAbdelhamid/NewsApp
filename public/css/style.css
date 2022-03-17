@@ -1,0 +1,40 @@
+header h1 {
+    margin: 0px;
+    color: white;
+    padding: 6px 25px;
+}
+div header{
+    background-color: black;
+    height: 50px;
+
+}
+div header i{color: aliceblue;}
+div nav ul{
+    margin-bottom:0px;
+    margin-top: 0px;
+    display: block;
+    margin-left: 60%;
+        }
+div nav ul li{
+    width: 100px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: medium;
+    display: inline-block;
+    margin-left: 20px;
+    height: 40px;
+    line-height: 40px;
+
+}
+div nav ul li:hover{
+    background-color: rgb(167, 16, 16);
+}
+div nav ul li a{
+    height: 40px;
+    text-decoration:none;
+    color: black;
+    display: block;
+}
+div nav ul li a:hover{color: white;
+            text-decoration:none;
+}
